@@ -86,82 +86,82 @@ export default function HomePage() {
 const terms = [
     {
         title: "API",
-        description: "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat."
+        description: "An API (Application Programming Interface) is a defined set of rules and protocols that allows different software systems to communicate with each other."
     },
     {
         title: "Artificial Intelligence",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud."
+        description: "Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence, such as learning, reasoning, problem-solving, and understanding language."
     },
     {
         title: "Authentication(Auth)",
-        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+        description: "Authentication (auth) is the process of verifying the identity of a user or system, ensuring they are who they claim to be. It typically involves credentials such as passwords, OTPs, or biometric data."
     },
     {
         title: "Backend Engineering",
-        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa."
+        description: "Backend engineering is the part of software development that focuses on building and maintaining the server-side logic, databases, and APIs that power an application behind the scenes."
     },
     {
         title: "Big Data",
-        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore."
+        description: "Big Data refers to extremely large and complex datasets that cannot be easily processed using traditional data processing tools. It involves handling high volume, velocity, and variety of data."
     },
     {
         title: "Blockchain",
-        description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        description: "Blockchain is a decentralized digital ledger for recording transactions. It stores data in linked blocks that are secure and tamper-resistant. It enables transparent and trustworthy record-keeping."
     },
     {
         title: "Cloud Computing",
-        description: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore."
+        description: "Cloud computing is the delivery of computing services like storage, servers, and software over the internet. It allows users to access resources on-demand without owning physical hardware. It enables scalability, flexibility, and cost-efficient computing."
     },
     {
         title: "Cyber Security",
-        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi."
+        description: "Cybersecurity is the practice of protecting computer systems, networks, and data from theft, damage, or unauthorized access. It involves using technologies, processes, and controls to safeguard digital assets."
     },
     {
         title: "Data Science",
-        description: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+        description: "Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines statistics, computer science, and domain expertise to analyze and interpret complex data."
     },
     {
         title: "Database Management(DBMS)",
-        description: "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+        description: "Database Management Systems (DBMS) enable users to create, manage, and interact with databases. It provides tools for data storage, retrieval, manipulation, and security."
     },
     {
         title: "Deployment",
-        description: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae itaque earum."
+        description: "Deployment is the process of making a software application or system available for use. It involves deploying code to servers, configuring environments, and ensuring the application runs smoothly in production."
     },
     {
         title: "DevOps",
-        description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
+        description: "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle and provide continuous delivery with high software quality."
     },
     {
         title: "Digital Marketing",
-        description: "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime."
+        description: "Digital marketing is the promotion of products or services using online channels. It includes platforms like social media, search engines, email, and websites. It helps businesses reach targeted audiences and measure results in real time."
     },
     {
         title: "Frontend Engineering",
-        description: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+        description: "Frontend engineering is the development of the user-facing part of a website or application. It involves creating the visual elements, user interactions, and overall user experience that users interact with directly."
     },
     {
         title: "Game Development",
-        description: "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est."
+        description: "Game development is the process of creating video games. It involves designing the game mechanics, programming the game logic, creating the game assets, and testing the game to ensure it works properly."
     },
     {
         title: "Internet of Things (IoT)",
-        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+        description: "The Internet of Things (IoT) refers to the network of physical devices, vehicles, home appliances, and other items embedded with electronics, software, sensors, actuators, and connectivity. These objects can connect and exchange data with each other and with central systems over the internet."
     },
     {
         title: "Machine Learning",
-        description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        description: "Machine Learning (ML) is a subset of artificial intelligence that enables systems to learn from data, identify patterns, and make decisions with minimal human intervention. It involves training algorithms on data so they can make predictions or take actions without being explicitly programmed."
     },
     {
         title: "SaaS",
-        description: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore."
+        description: "SaaS (Software as a Service) is a software distribution model where a third-party provider hosts applications and makes them available to customers over the internet. Users typically pay a subscription fee to access the software, which can be used on any device with an internet connection."
     },
     {
         title: "UX Design",
-        description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
+        description: "UX design focuses on creating products that are easy, efficient, and enjoyable to use. It involves understanding user needs, behavior, and improving usability. It ensures a smooth and meaningful interaction between users and a product."
     },
     {
         title: "Web Development",
-        description: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel eum iure."
+        description: "Web development is the process of building and maintaining websites and web applications. It involves creating the visual elements, user interactions, handling backend logics and in short, right from UI to Deployment."
     }
 ];
