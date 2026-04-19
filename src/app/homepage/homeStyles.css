@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Syne:wght@700;800&display=swap');
+
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
 .dark {
   color-scheme: dark;
 }
@@ -197,3 +207,30 @@
 .stagger-2 { animation: slideDownFade 0.7s ease-out 0.3s both; }
 .stagger-3 { animation: slideDownFade 0.7s ease-out 0.5s both; }
 .stagger-4 { animation: slideDownFade 0.7s ease-out 0.7s both; }
+
+/* ── Animated gradient background ───────────────── */
+.home-gradient-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    #022c22,
+    #065f46,
+    #115e59,
+    #047857,
+    #064e3b,
+    #022c22
+  );
+  background-size: 200% 100%;
+  animation: constantFlow 12s linear infinite;
+}
+
+@keyframes constantFlow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
