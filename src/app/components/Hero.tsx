@@ -15,7 +15,7 @@ export function Hero({ onGetStarted }: HeroProps) {
               className="text-[#059669] text-[10px] tracking-[0.3em] uppercase"
               style={{ fontFamily: 'JetBrains Mono, monospace' }}
             >
-              Phase 04: Decentralized Intelligence
+              New Era of Learning
             </span>
           </div>
 
